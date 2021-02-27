@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Website</title>
+</head>
+
+<body>
+
+    <div style="background-color: #f00;" id="mydiv">
+        My Demo Website!!!
+        <button onclick="changeBG('green')">
+            Green
+        </button>
+        <button onclick="changeBG('blue')">
+            Blue
+        </button>
+        <button onclick="changeBG('yellow')">
+            Yellow
+        </button>
+    </div>
+
+</body>
+<script>
+    function changeBG(param) {
+        document.getElementById("mydiv").style.backgroundColor = param;
+    }
+</script>
+
+</html>
